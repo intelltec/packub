@@ -20,8 +20,8 @@ Usage
 =====
 
 - Edit variables in the start of file.
-- Add "aa['example.com]='example_database'" string for each site you want to backup.
+- Add `aa['example.com]='example_database'` string for each site you want to backup.
 - I recommend to run it with superuser rights and using mysql root user password.
-- Run `packub.sh`.
+- Run `packub.sh`
 
 For more information about backups: `man rdiff-backup`
